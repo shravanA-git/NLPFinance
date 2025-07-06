@@ -4,7 +4,7 @@ This project builds a sentiment classification model using BERT (Bidirectional E
 
 ## Overview
 
-The notebook walks through the complete pipeline of fine-tuning a pre-trained BERT model using PyTorch and Hugging Face's `transformers` library.
+The notebook walks through the complete pipeline of fine-tuning a pre-trained BERT model using PyTorch and Hugging Face's transformers library.
 
 ## Steps
 
