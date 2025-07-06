@@ -1,6 +1,6 @@
 # NLPFinanceCode (BERT-Based Sentiment Classifier)
 
-This project builds a sentiment classification model using **BERT (Bidirectional Encoder Representations from Transformers)** to analyze financial news headlines. It classifies each headline as **positive**, **neutral**, or **negative**, offering insights into how sentiment might relate to stock market movements.
+This project builds a sentiment classification model using BERT (Bidirectional Encoder Representations from Transformers) to analyze financial news headlines. It classifies each headline as positive, neutral, or negative, offering insights into how sentiment might relate to stock market movements.
 
 ## Overview
 
