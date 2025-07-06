@@ -14,12 +14,12 @@ The notebook walks through the complete pipeline of fine-tuning a pre-trained BE
 
 ### 2. Text Preprocessing
 - Headlines are tokenized using BERT's tokenizer.
-- Special tokens `[CLS]` and `[SEP]` are added.
+- Special tokens [CLS] and [SEP] are added.
 - Tokenized sentences are padded to a uniform length.
 - Attention masks are created to differentiate real tokens from padding.
 
 ### 3. Model Configuration
-- Utilizes `BertForSequenceClassification` with 3 output classes.
+- Utilizes BertForSequenceClassification with 3 output classes.
 - Fine-tuned using the AdamW optimizer and linear learning rate scheduler.
 - Trained using GPU acceleration when available.
 
@@ -41,7 +41,7 @@ The notebook walks through the complete pipeline of fine-tuning a pre-trained BE
 ## Technologies Used
 
 - Python, PyTorch
-- Hugging Face `transformers` library
+- Hugging Face transformers library
 - BERT-base-uncased model
 - scikit-learn, pandas, matplotlib, seaborn
 
